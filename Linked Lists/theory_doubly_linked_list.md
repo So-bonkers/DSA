@@ -32,4 +32,14 @@
 * **Time Complexity**: O(1)
     Since traversal of the linked list is not required so the time complexity is constant.
 * **Auxiliary Space**: O(1)
-    As no extra space is required, so the space complexity is constant.
+    As no extra space is required, so the space complexity is constant
+
+### Advantages of Doubly Linked List over the Singly Linked List:
+*   A DLL can be traversed in both forward and backward directions
+*   The delte operation in DLL is more efficient if a pointer to the node to be deleted is given
+*   We can quickly insert a new node before a given node
+*   In a singly linked list, to delete a node, a pointer to the previous node is needed. To get this previous node, sometimes the list is traversed. In DLL, we can get the previous node using the previous pointer
+
+### Disadvantages of DLL over Singly Linked List:
+* Every node of DLL requires extra space for a previous pointer. It is possible to implement DLL with a single pointer though.
+* All operations require an extra pointer previous to be maintained. For example, in insertion, we need to modify previous pointers together with the next pointers.
